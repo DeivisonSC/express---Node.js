@@ -3,10 +3,10 @@
 Este projeto demonstra a implementação de uma API RESTful utilizando **Node.js**, **Express** e o ORM **Prisma**, com foco na funcionalidade de escrita aninhada (Nested Writes) em um banco de dados relacional.
 
 ## Tecnologias
-* Node.js 20.20.0
-* Express (Framework Web)
-* Prisma 6v (ORM)
-* MySQL (Laragon)
+* Node.js  20.20.0
+* Express  5.2.1 (Framework Web)
+* Prisma  6.19.2 (ORM)
+* MySQL  (Laragon)
 
 ## Funcionalidade Principal (Nested Write)
 O projeto utiliza o recurso nativo do Prisma para criar simultaneamente um `Usuario` e seu `Perfil` em uma única transação, garantindo a integridade dos dados:
